@@ -19,6 +19,9 @@
 #
 # Version History:
 # v2017-10-28 Initial Version
+
+usage = "Usage: iOS_sms_parser.py -d sms.db -o sms_output.tsv"
+
  
 
 import sys
