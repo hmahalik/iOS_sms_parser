@@ -77,7 +77,7 @@ if (options.outputtsv != None):
 
 # write header for contacts output file
 if (options.outputtsv != None):
-    outputfile.write("rowid\tchat_id\thandle_id\ttest\tservice\taccount\taccount_login\tchat_identifier\tmessage_date\tdate_read\tis_read\tlast_read_message_timestamp\tfilename\tcreated_date\tmime_type\ttotal_bytes\n")
+    outputfile.write("rowid\tchat_id\thandle_id\ttext\tservice\taccount\taccount_login\tchat_identifier\tmessage_date\tdate_read\tis_read\tlast_read_message_timestamp\tfilename\tcreated_date\tmime_type\ttotal_bytes\n")
 
 smsquery = """SELECT message.rowid,
 chat_message_join.chat_id,
